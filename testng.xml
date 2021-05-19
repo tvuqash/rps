@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="RPS Encoder Page" preserve-order="true">
+		<classes>
+			<class name="com.tvu.shqa.rpspage.test.encoderpagetest.LoginPageTest">
+				<methods>
+					<include name="openLoginpageTest"></include>
+					<include name="loginTest"></include>
+				</methods>
+			</class>
+			<class name="com.tvu.shqa.rpspage.test.encoderpagetest.HomePageTest">
+				<methods>
+					<include name="startAllLiveTest"></include>
+					<include name="stopAllLiveTest"></include>
+					<include name="setDelayTest"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
